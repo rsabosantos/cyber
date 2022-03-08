@@ -1,0 +1,160 @@
+/*antivirus modal */
+#yourmodalid_antivirus{                                                                   
+    display:none;                                                                               
+    z-index: index 1;                                                                            
+    top:0;                                                                                       
+    left:0;                                                                                      
+    position:fixed;                                                                              
+    background-color:rgb(0,0,0,0.5);                                                             
+    width: 100%;                                                                                 
+    height: 100%;                                                                               
+    }                                                                                            
+    #yourmodalcontentid_antivirus{                                                   
+    background-color:white;                                                            
+    padding:10px;                                                                      
+    box-shadow :rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+    text-align:center;                                                                 
+    font-size:1em;                                                                 
+    /*Google api font*/                                                             
+    font-family: 'Dosis', sans-serif;                                               
+    font-family: 'Nunito', sans-serif;                                                 
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;                                
+    position: fixed;                                                                   
+              top: 50%;                                                               
+           left: 50%;                                                               
+          transform: translate(-50%, -50%);                                        
+    overflow:auto;                                                                    
+    }                                                                                  
+    #closebutton_antivirus{                                                          
+    float:right;                                                                       
+    font-size:3rem;                                                                    
+    color:gray;                                                                        
+    padding:3px;                                                                       
+    }                                                                                  
+    #closebutton_antivirus:hover{                                                                
+    background-color:rgb(235, 131, 131);                                               
+    }                                                                                  
+    .button-58 {                                                                       
+     align-items: center;                                                             
+     background-color: #06f;                                                           
+     border: 2px solid #06f;                                                           
+     box-sizing: border-box;                                                           
+     color: #fff;                                                                      
+     cursor: pointer;                                                                   
+     display: inline-flex;                                                              
+     fill: #000;                                                                       
+     font-family: Inter,sans-serif;                                                    
+     font-size: 16px;                                                                  
+     font-weight: 600;                                                                 
+     height: 48px;                                                                     
+     justify-content: center;                                                          
+     letter-spacing: -.8px;                                                            
+     line-height: 24px;                                                                
+     min-width: 140px;                                                                 
+     outline: 0;                                                                       
+     padding: 0 17px;                                                                  
+    text-align: center;                                                                
+     text-decoration: none;                                                            
+     transition: all .3s;                                                              
+     user-select: none;                                                                
+     -webkit-user-select: none;                                                        
+     touch-action: manipulation;                                                        
+    }                                                                                    
+    .button-58:focus {                                                                   
+     color: #171e29;                                                                    
+    }                                                                                    
+    .button-58:hover {                                                                   
+      background-color: #3385ff;                                                         
+      border-color: #3385ff;                                                             
+      fill: #06f;                                                                        
+    }                                                                                    
+    .button-58:active {                                                                  
+     background-color: #3385ff;                                                         
+     border-color: #3385ff;                                                             
+      fill: #06f;                                                                        
+    }                                                                                    
+    @media (min-width: 768px) {                                                          
+    .button-58 {                                                                        
+     min-width: 170px;                                                                 
+     }                                                                                  
+    }                                                                                    
+    
+
+/*about us */
+
+
+
+#yourmodalid_about_us{                                                                   
+display:none;                                                                               
+z-index: index 1;                                                                            
+top:0;                                                                                       
+left:0;                                                                                      
+position:fixed;                                                                              
+background-color:rgb(0,0,0,0.5);                                                             
+width: 100%;                                                                                 
+height: 100%;                                                                               
+}                                                                                            
+#yourmodalcontentid_about_us{                                                   
+background-color:white;                                                            
+padding:10px;                                                                      
+box-shadow :rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+text-align:center;                                                                 
+font-size:1em;                                                                 
+/*Google api font*/                                                             
+font-family: 'Dosis', sans-serif;                                               
+font-family: 'Nunito', sans-serif;                                                 
+font-family: 'Zen Kaku Gothic Antique', sans-serif;                                
+position: fixed;                                                                   
+          top: 50%;                                                               
+       left: 50%;                                                               
+      transform: translate(-50%, -50%);                                        
+overflow:auto;                                                                    
+}                                                                                  
+#closebutton_about_us{                                                          
+float:right;                                                                       
+font-size:3rem;                                                                    
+color:gray;                                                                        
+padding:3px;                                                                       
+}                                                                                  
+#closebutton_about_us:hover{                                                                
+background-color:rgb(235, 131, 131);                                               
+}
+
+/*user terms*/
+
+
+#yourmodalid_terms{                                                                   
+  display:none;                                                                               
+  z-index: index 1;                                                                            
+  top:0;                                                                                       
+  left:0;                                                                                      
+  position:fixed;                                                                              
+  background-color:rgb(0,0,0,0.5);                                                             
+  width: 100%;                                                                                 
+  height: 100%;                                                                               
+  }                                                                                            
+  #yourmodalcontentid_terms{                                                   
+  background-color:white;                                                            
+  padding:10px;                                                                      
+  box-shadow :rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+  text-align:center;                                                                 
+  font-size:1em;                                                                 
+  /*Google api font*/                                                             
+  font-family: 'Dosis', sans-serif;                                               
+  font-family: 'Nunito', sans-serif;                                                 
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;                                
+  position: fixed;                                                                   
+            top: 50%;                                                               
+         left: 50%;                                                               
+        transform: translate(-50%, -50%);                                        
+  overflow:auto;                                                                    
+  }                                                                                  
+  #closebutton_terms{                                                          
+  float:right;                                                                       
+  font-size:3rem;                                                                    
+  color:gray;                                                                        
+  padding:3px;                                                                       
+  }                                                                                  
+  #closebutton_terms:hover{                                                                
+  background-color:rgb(235, 131, 131);                                               
+  } 

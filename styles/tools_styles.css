@@ -1,0 +1,34 @@
+.tools_content_divs{
+   
+    margin:10px;
+    width:200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+body {
+    margin:0;
+}
+
+.tools_content_divs img {
+    height:200px;
+    width:200px;
+   
+}
+
+#tools_main_div{
+display:flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+flex-direction:row;
+margin-top:100px;
+background-color:white;
+flex-grow:4;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+.tools_content_divs:hover{
+    box-shadow: rgba(5, 124, 204, 0.45) 0px 25px 20px -20px;
+    
+}
+
